@@ -1,11 +1,11 @@
 # Capstone-Project-5
 <h1>Dmart analysis using pyspark<br/></h1>
 
-**Problem Statement:** <br/> The task is to create a data pipeline using PySpark to integrate and analyze sales data from three different sources: product information, sales transactions, and customer details. The goal is to establish a connection with PySpark, load the datasets, perform data transformations, and answer a set of analytical questions.<br/>
+**Problem Statement:** <br/> The task is to create a data pipeline using PySpark to integrate and analyze sales data from three sources: product information, sales transactions, and customer details. The goal is to establish a connection with PySpark, load the datasets, perform data transformations, and answer a set of analytical questions.<br/>
 
 **Technologies Used:** <br/> Python, SQL , Pyspark.<br/>
 
-**Project Workflow:** <br/>Data retrieval from the specified link, transformation, and loading into AWS S3 and RDS, with optional AWS Glue automation. Additionally, a logging mechanism will be implemented to monitor and track the progress of ETL operations for transparency and troubleshooting.
+**Project Workflow:** <br/>Data retrieval from the specified link, Load and clean the product, sales, and customer data. Merge the datasets and create new features for analysis. Perform exploratory data analysis to uncover insights.
 
 **Task performed to complete the project:** <br/> **1. Establish PySpark Connection** - Input: CSV files. Set up a PySpark environment. Create a connection to read CSV files into PySpark DataFrames.<br/>
 **2. Load Data into PySpark DataFrames** - Load the products.csv, sales.csv, and customer.csv files into separate PySpark DataFrames. <br/>
